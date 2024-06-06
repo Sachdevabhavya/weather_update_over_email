@@ -6,7 +6,7 @@ This Python script fetches current weather information for a specified city and 
 - **EMAIL**: Email address from which the weather updates will be sent.
 - **PASSWORD**: Password for the email account.
 - **WEATHER_API_KEY**: API key for accessing weather data.
-- **RECEIVER_EMAIL**: Email address of the recipient.
+- **TO_EMAIL**: Email address of the recipient.
 
 ## Dependencies
 - `schedule`
