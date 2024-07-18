@@ -6,7 +6,6 @@ This Python script fetches current weather information for a specified city and 
 - **EMAIL**: Email address from which the weather updates will be sent.
 - **PASSWORD**: Password for the email account.
 - **WEATHER_API_KEY**: API key for accessing weather data.
-- **TO_EMAIL**: Email address of the recipient.
 
 ## Dependencies
 - `schedule`
@@ -19,9 +18,10 @@ This Python script fetches current weather information for a specified city and 
 - `email.mime.text`
 - `email.mime.base`
 - `email.encoders`
+- `tkinter`
 
 ## How to Run
-To run the script, simply execute `python filename.py`. Ensure that the necessary environment variables are set correctly in the `.env` file.
+To run the script, simply execute `python gui.py`. Ensure that the necessary environment variables are set correctly in the `.env` file.
 
 ## Note
 Currently, the city name is hardcoded within the script. If you wish to change the city, modify the respective variable in the script.
