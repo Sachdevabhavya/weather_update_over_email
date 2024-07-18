@@ -66,8 +66,7 @@ def get_weather(city):
         return None, None, None, None
 
 
-def send_temperature_graph_email(to_email):
-    city = "Mumbai"
+def send_temperature_graph_email(to_email , city):
     current_temperature, current_weather_description, current_time, past_and_next_days_data = get_weather(city)
     if current_temperature is not None and current_weather_description is not None and current_time is not None and past_and_next_days_data:
         times = [item[0] for item in past_and_next_days_data]
